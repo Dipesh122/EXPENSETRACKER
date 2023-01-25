@@ -1,4 +1,2 @@
-.idea
-.vs
-.vscode
-appsettings.json
+
+*.json
