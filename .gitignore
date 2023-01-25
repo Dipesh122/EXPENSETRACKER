@@ -1,1 +1,4 @@
-./appsettings.json
+./ExpenseTracker.Api/appsetting.json
+.idea
+.vs
+.vscode
