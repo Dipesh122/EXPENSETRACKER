@@ -7,5 +7,6 @@ namespace ExpneseTracker.Core.ViewModels
         public string? Notes { get; set; }
         public DateTime Date { get; set; }
         public int CategoryId { get; set; }
+        //this is modified
     }
 }

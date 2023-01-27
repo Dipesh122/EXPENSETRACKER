@@ -1,7 +1,6 @@
 using AutoMapper;
 using ExpenseTracker.Core.Contracts;
 using ExpenseTracker.Core.Models;
-using ExpenseTracker.Infrastructure.Repository;
 using ExpneseTracker.Core.ViewModels;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XueyPsirQ+88uhGrObLnWchxLwvYytEjy4ief4ywz/LlxYpJi3nFlUF/8dr3amlU+ph3BA3A+nVohml3bH1JCQ==",
+  "dgSpecHash": "FDzDibs6K9GyhDpRSiz5CQxA/Vf5sO9WCcMZiMd9GUWbYHYIjgAZpEfr6KYfPhl3mcZtUIt/zl7FrKaq2BDa0w==",
   "success": true,
-  "projectFilePath": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj",
+  "projectFilePath": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

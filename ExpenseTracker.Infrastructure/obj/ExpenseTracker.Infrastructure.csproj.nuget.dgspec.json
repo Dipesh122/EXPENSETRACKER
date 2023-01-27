@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj": {}
+    "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj": {
+    "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj",
+        "projectUniqueName": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj",
         "projectName": "ExpenseTracker.Core",
-        "projectPath": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj",
+        "projectPath": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj",
         "packagesPath": "C:\\Users\\dipes\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\obj\\",
+        "outputPath": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dipes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj": {
+    "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj",
+        "projectUniqueName": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj",
         "projectName": "ExpenseTracker.Infrastructure",
-        "projectPath": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj",
+        "projectPath": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\dipes\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\obj\\",
+        "outputPath": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dipes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj": {
-                "projectPath": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj"
+              "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj": {
+                "projectPath": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Core\\ExpenseTracker.Core.csproj"
               }
             }
           }

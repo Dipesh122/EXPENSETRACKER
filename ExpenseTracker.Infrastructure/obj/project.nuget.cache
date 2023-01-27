@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MU65PgXz9DRi/rz96ugSxJdfHBfxTcFSVNtJ866JR8d6Qx6ILLkM/Ji7aZEogGMNCopfGY/OTP9Ge2Ayd9lPJA==",
+  "dgSpecHash": "FLr0t7iSPT6AaZC1GGN/Wwuha7YhTIGLbhiLDcRx/HThjMxPEp7IBsERfvSKDj0odqbWQCWoqJn7D3Piu6WP2Q==",
   "success": true,
-  "projectFilePath": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj",
+  "projectFilePath": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dipes\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\dipes\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

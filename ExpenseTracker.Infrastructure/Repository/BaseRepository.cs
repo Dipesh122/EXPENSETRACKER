@@ -51,5 +51,10 @@ namespace ExpenseTracker.Infrastructure.Repository
             await _context.SaveChangesAsync();
             return entity;
         }
+
+        public Task<TEntity> Pagination()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

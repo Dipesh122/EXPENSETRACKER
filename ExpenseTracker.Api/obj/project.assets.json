@@ -1110,11 +1110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Api\\ExpenseTracker.Api.csproj",
+      "projectUniqueName": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Api\\ExpenseTracker.Api.csproj",
       "projectName": "ExpenseTracker.Api",
-      "projectPath": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Api\\ExpenseTracker.Api.csproj",
+      "projectPath": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Api\\ExpenseTracker.Api.csproj",
       "packagesPath": "C:\\Users\\dipes\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Api\\obj\\",
+      "outputPath": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dipes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1131,8 +1131,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj": {
-              "projectPath": "D:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj"
+            "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj": {
+              "projectPath": "d:\\source\\repo\\ExpenseTracker\\ExpenseTracker.Infrastructure\\ExpenseTracker.Infrastructure.csproj"
             }
           }
         }

@@ -9,6 +9,7 @@ namespace ExpenseTracker.Core.Contracts
         Task<TEntity?> GetByIdAsync(int id);
         Task<TEntity> RemoveAsync(int id);
         Task<TEntity> UpdateAsync(TEntity entity);
+        Task<TEntity> Pagination();
         // Task<TEntity?> GetEntityAsync(int id);
     }
 }
