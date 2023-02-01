@@ -1,6 +1,5 @@
-using AutoMapper;
 using ExpenseTracker.Core.Contracts;
-using ExpenseTracker.Core.Models;
+using ExpenseTracker.Core.pagination;
 using ExpneseTracker.Core.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +10,7 @@ namespace ExpenseTracker.Api.Controllers
     public class ExpenseController : ControllerBase
     {
         private readonly IExpenseRepository _repository;
+
 
         public ExpenseController(IExpenseRepository repository)
         {
@@ -35,6 +35,13 @@ namespace ExpenseTracker.Api.Controllers
         public async Task<ActionResult<ExpenseViewModel>> GetById(int id)
         {
             var result = await _repository.GetByIdAsync(id);
+            return Ok(result);
+        }
+
+        [HttpGet("paginate")]
+        public async Task<IActionResult> PaginateExpense([FromQuery] PaginationFilter filter)
+        {
+            var result = await _repository.Pagination(filter);
             return Ok(result);
         }
 
