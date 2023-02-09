@@ -1,7 +1,7 @@
 using AutoMapper;
 using ExpenseTracker.Core.Contracts;
 using ExpenseTracker.Core.Models;
-using ExpenseTracker.Infrastructure.Repository;
+using ExpenseTracker.Core.pagination;
 using ExpneseTracker.Core.ViewModels;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,9 +10,11 @@ namespace ExpenseTracker.Infrastructure.Repository
     public class ExpenseRepository : BaseRepository<Expense>, IExpenseRepository
     {
         private readonly IMapper _mapper;
-        public ExpenseRepository(AppDbContext context, IMapper mapper) : base(context, mapper)
+        private readonly AppDbContext _dbcontext;
+        public ExpenseRepository(AppDbContext context, IMapper mapper, AppDbContext dbContext) : base(context, mapper)
         {
             _mapper = mapper;
+            _dbcontext = dbContext;
         }
 
         public async Task<ExpenseViewModel> InsertAsync(ExpenseViewModel model)
@@ -35,16 +37,14 @@ namespace ExpenseTracker.Infrastructure.Repository
             return result;
         }
 
-        // public async Task<ExpenseViewModel> RemoveAsync(int id)
-        // {
-        //     var data = await base.RemoveAsync(id);
-        //     var result = _mapper.Map<ExpenseViewModel>(data);
-        //     return result;
-        // }
-
-        // public Task<ExpenseViewModel> UpdateAsync(ExpenseViewModel model)
-        // {
-        //     throw new NotImplementedException();
-        // }
+        public async Task<ICollection<Expense>> Pagination(PaginationFilter filter)
+        {
+            var pagination = new PaginationFilter(filter.PageNumber, filter.PageSize);
+            var pagedData = await _dbcontext.Expenses
+                .Skip((pagination.PageNumber - 1) * pagination.PageSize )
+                .Take(pagination.PageSize)
+                .ToListAsync();
+            return pagedData;
+        }
     }
 }    

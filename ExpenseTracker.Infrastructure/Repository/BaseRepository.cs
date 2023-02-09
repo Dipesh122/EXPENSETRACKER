@@ -1,5 +1,6 @@
 using AutoMapper;
 using ExpenseTracker.Core.Contracts;
+using ExpenseTracker.Core.pagination;
 using Microsoft.EntityFrameworkCore;
 
 namespace ExpenseTracker.Infrastructure.Repository
@@ -23,9 +24,13 @@ namespace ExpenseTracker.Infrastructure.Repository
             return entity;
         }
 
-        public async Task<ICollection<TEntity>> GetAllAsync()
+        public async Task<ICollection<TEntity>> GetAllAsync(PaginationFilter filter)
         {
-            return await _dbSet.ToListAsync();
+            var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
+            var pagedData = _dbSet.Skip((validFilter.PageNumber -1) * validFilter.PageSize)
+                .Take(validFilter.PageSize)
+                .ToListAsync();
+            return await pagedData;
         }
 
         public async Task<TEntity?> GetByIdAsync(int id)
